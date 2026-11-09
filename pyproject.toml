@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "estilizador"
+version = "2.0.0"
+description = "Micro-framework CLI nativo e modular para estilização, componentes geométricos e cores infinitas Hex/RGB, com zero dependências externas."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Dias Valente 96", email = "diasvalente96@gmail.com"}
+]
+keywords = ["terminal", "cores", "termux", "portugues", "cli", "estilizador", "truecolor", "hex"]
+dependencies = [
+    # ZERO dependências! Totalmente independente e rápido.
+]
+
+[tool.setuptools]
+packages = ["estilizador"]
